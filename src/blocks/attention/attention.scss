@@ -1,0 +1,26 @@
+.attention {
+  padding: 40px 0 0;
+}
+
+.attention__inner {
+  border-bottom: 1px solid #A0A0A0;
+  padding-bottom: 40px;
+}
+
+.attention__list {
+  @include lsr;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 510px));
+  grid-gap: 50px;
+
+  @include max($sm) {
+    grid-template-columns: repeat(1, 100%);
+    grid-gap: 30px;
+  }
+}
+
+.attention__item {
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}

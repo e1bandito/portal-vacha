@@ -1,0 +1,14 @@
+- const data = getData('nav')
+
++b.nav
+  +e.UL.list
+    each item in data
+      if item.dropdown
+        +e.item--dropdown(class= (item.title === pageTitle) ? "--active" : "")= item.title
+          +e.UL.dropdown-list
+            each dropdownItem in item.dropdown
+              +e.dropdown-item
+                +e.dropdown-link(href= dropdownItem.path) #{dropdownItem.title}
+      else
+        +e.item(class= (item.title === pageTitle) ? "--active" : "")
+          +e.link(href= item.path) #{item.title}

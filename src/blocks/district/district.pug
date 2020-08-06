@@ -1,0 +1,10 @@
+- const districtData = getData('district')
+
++b.district
+  .container
+    +e.inner
+      +b.H2.title Район
+      +e.UL.list
+        each item in districtData
+          +e.LI.item
+            +card(item.img, item.alt, item.title, item.text, item.path)

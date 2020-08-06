@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__img {
+  position: relative;
+  width: 100%;
+  padding-bottom: 30%;
+  margin-bottom: 15px;
+
+  & img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.card__title {
+  font-weight: 800;
+  font-size: 24px;
+  color: #000000;
+  margin: 0 0 15px 0;
+}
+
+.card__text {
+  font-size: 14px;
+  color: #000000;
+  margin: 0;
+}
+
+.card__link {
+  text-align: right;
+  font-weight: 600;
+  font-size: 14px;
+  color: #3B69C2;
+  margin-top: 20px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

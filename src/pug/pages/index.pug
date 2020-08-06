@@ -1,0 +1,13 @@
+extends ../layout/layout
+include ../../blocks/card/card
+
+block variables
+  - const pageTitle = 'main';
+
+block content
+  include ../../blocks/header/header
+  .main
+    include ../../blocks/district/district
+    include ../../blocks/attention/attention
+    include ../../blocks/culture/culture
+  include ../../blocks/footer/footer
