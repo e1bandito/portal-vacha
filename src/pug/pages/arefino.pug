@@ -1,0 +1,13 @@
+extends ../layout/layout
+include ../../blocks/card/card
+
+block variables
+  - const pageTitle = 'Поселения';
+  - const mainTitle = 'Арефино'
+
+block content
+  include ../../blocks/header/header
+  .main
+    include ../../blocks/news/news
+    include ../../blocks/pagination/pagination
+  include ../../blocks/footer/footer

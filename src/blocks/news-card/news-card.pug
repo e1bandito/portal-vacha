@@ -1,0 +1,15 @@
+- const newsData = getData('news-card')
+
++b.SECTION.news-card
+  .container
+    +e.inner
+      +e.H1.title= newsData[0].title
+      +e.P.date= newsData[0].date
+      +e.img
+        img(src="img/news-image.jpg" alt="news-card alt")
+      each item in newsData[0].text
+        +e.P.text= item
+      +e.H2.subtitle News list
+      +e.UL.list
+        each item in newsData[0].list
+          +e.item= item

@@ -1,0 +1,11 @@
+extends ../layout/layout
+include ../../blocks/card/card
+
+block variables
+  - const pageTitle = 'news-card';
+
+block content
+  include ../../blocks/header/header
+  .main
+    include ../../blocks/news-card/news-card
+  include ../../blocks/footer/footer

@@ -40,11 +40,17 @@
 
   &--active {
     color: #3B69C2;
+    text-decoration: underline;
   }
 
   &--dropdown {
+    position: relative;
     cursor: pointer;
     transition: color 0.3s;
+
+    &::after {
+      content: ">";
+    }
 
     &:hover {
       color: #3B69C2;

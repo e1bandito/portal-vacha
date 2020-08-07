@@ -1,0 +1,11 @@
+extends ../layout/layout
+include ../../blocks/card/card
+
+block variables
+  - const pageTitle = 'Спорт';
+
+block content
+  include ../../blocks/header/header
+  .main
+    include ../../blocks/news/news
+  include ../../blocks/footer/footer

@@ -3,6 +3,7 @@ mixin card(img, alt, title, text, path)
     if img
       +e.img
         img(src="img/" + img, alt=alt)
-    if title
-      +e.H3.title= title
-    +e.P.text= text
+    +e.wrap
+      if title
+        +e.H3.title= title
+      +e.P.text= text

@@ -1,48 +1,48 @@
 [
   {
-    "path": "index.html",
+    "path": "./vacha.html",
     "title": "р.п. Вача"
   },
   {
     "path": "page2.html",
-    "title": "Поселения >",
+    "title": "Поселения",
     "dropdown": {
       "Арефино": {
         "title": "Арефино",
-        "path": "page3.html"
+        "path": "./arefino.html"
       },
       "Филинское": {
         "title": "Филинское",
-        "path": "page3.html"
+        "path": "./filinskoe.html"
       },
       "Казаково": {
         "title": "Казаково",
-        "path": "page3.html"
+        "path": "./kazakovo.html"
       },
       "Чулково": {
         "title": "Чулково",
-        "path": "page3.html"
+        "path": "./chulkovo.html"
       }
     }
   },
   {
-    "path": "page3.html",
+    "path": "./sport.html",
     "title": "Спорт"
   },
   {
-    "path": "page3.html",
+    "path": "./culture.html",
     "title": "Культура"
   },
   {
-    "path": "page3.html",
+    "path": "./emergency.html",
     "title": "ЧС"
   },
   {
-    "path": "page3.html",
+    "path": "./covid-19.html",
     "title": "Коронавирус"
   },
   {
-    "path": "page3.html",
+    "path": "./about.html",
     "title": "О сайте"
   }
 ]

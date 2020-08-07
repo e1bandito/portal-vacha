@@ -1,20 +1,30 @@
 [
   {
+    "img" : "news-image.jpg",
+    "alt" : "image alt text",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac venenatis ligula.",
-    "date": "31 июля 2020",
-    "text": {
-      "text1" : "Suspendisse sollicitudin et turpis in congue. Integer vitae porta orci, eget dignissim augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam blandit arcu et dolor dignissim rutrum. Praesent auctor dolor dolor, sit amet tincidunt  enim placerat id. Nullam vitae leo non urna gravida egestas. In quis quam eu tellus tincidunt  imperdiet vel vel lorem. Sed molestie pharetra ipsum quis pulvinar. Quisque accumsan molestie mi  id pulvinar. Aliquam pretium odio eget orci scelerisque vestibulum. Curabitur vehicula ut eros sed  luctus. Duis rutrum quis libero quis ultricies.",
-      "text2" : "Duis ultricies tristique tortor, ut consequat lacus lobortis non. Donec varius justo quis enim placerat ornare. Suspendisse ut arcu rhoncus, lacinia turpis non, bibendum lacus. Nunc id urna malesuada, porttitor lorem vel, dictum dolor. In ut erat sollicitudin, fermentum dolor in, aliquam urna. Proin interdum odio ut eleifend vestibulum. Aliquam vitae lorem a neque dapibus lobortis eu in tellus.",
-      "text3" : "Cras leo nisi, pulvinar at consequat non, sollicitudin ut augue. Etiam ac volutpat nunc. Fusce ultricies non massa sed egestas. Phasellus accumsan metus sed condimentum cursus. Mauris placerat augue at enim gravida, et pellentesque nisi posuere. Nullam feugiat, sem at aliquam suscipit, sem eros dignissim elit, eleifend porttitor dui purus vel diam. Etiam et mi eros. Morbi vehicula ut odio id finibus. Aenean felis turpis, molestie nec ex sit amet, mollis tristique ipsum. Praesent et metus elit. Nulla placerat maximus neque, non sollicitudin felis luctus sit amet. In pellentesque lorem nec ornare gravida. Integer sed nunc purus.",
-      "text4" : "Pellentesque bibendum tincidunt eros, nec feugiat nulla efficitur vel. Proin sed semper nulla. Cras venenatis porttitor condimentum. Proin porttitor est diam, auctor suscipit est blandit congue. Curabitur pharetra leo non ipsum maximus, id accumsan ipsum dapibus. Ut lacinia purus ex, ac gravida tellus fermentum eget. In ac nunc orci. Pellentesque vitae libero nec nisl volutpat finibus quis quis massa."
-    },
-    "list": {
-      "item1" : "item 1",
-      "item2" : "item 2",
-      "item3" : "item 3",
-      "item4" : "item 4",
-      "item5" : "item 5",
-      "item6" : "item 6"
-    }
+    "text": "Suspendisse sollicitudin et turpis in congue. Integer vitae porta orci, eget dignissim augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam blandit arcu et dolor dignissim rutrum. Praesent auctor dolor dolor, sit amet tincidunt enim placerat id. Nullam vitae leo non urna gravida egestas. In quis quam eu tellus tincidunt imperdiet vel vel lorem. Sed molestie pharetra ipsum quis pulvinar.",
+    "path": "./news-card.html"
+  },
+  {
+    "img" : "news-image.jpg",
+    "alt" : "image alt text",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac venenatis ligula.",
+    "text": "Suspendisse sollicitudin et turpis in congue. Integer vitae porta orci, eget dignissim augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam blandit arcu et dolor dignissim rutrum. Praesent auctor dolor dolor, sit amet tincidunt enim placerat id. Nullam vitae leo non urna gravida egestas. In quis quam eu tellus tincidunt imperdiet vel vel lorem. Sed molestie pharetra ipsum quis pulvinar.",
+    "path": "./news-card.html"
+  },
+  {
+    "img" : "news-image.jpg",
+    "alt" : "image alt text",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac venenatis ligula.",
+    "text": "Suspendisse sollicitudin et turpis in congue. Integer vitae porta orci, eget dignissim augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam blandit arcu et dolor dignissim rutrum. Praesent auctor dolor dolor, sit amet tincidunt enim placerat id. Nullam vitae leo non urna gravida egestas. In quis quam eu tellus tincidunt imperdiet vel vel lorem. Sed molestie pharetra ipsum quis pulvinar.",
+    "path": "./news-card.html"
+  },
+  {
+    "img" : "news-image.jpg",
+    "alt" : "image alt text",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac venenatis ligula.",
+    "text": "Suspendisse sollicitudin et turpis in congue. Integer vitae porta orci, eget dignissim augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam blandit arcu et dolor dignissim rutrum. Praesent auctor dolor dolor, sit amet tincidunt enim placerat id. Nullam vitae leo non urna gravida egestas. In quis quam eu tellus tincidunt imperdiet vel vel lorem. Sed molestie pharetra ipsum quis pulvinar.",
+    "path": "./news-card.html"
   }
 ]
