@@ -2,9 +2,14 @@
   .container
     +e.inner
       +e.top
-        +e.logo
-          img(src="img/logo.svg" alt="Новостной портал Вачского района")
-          span Новостной портал <br> Вачского района/
+        if pageTitle === 'main'
+          +e.A.logo
+            img(src="img/logo.svg" alt="Новостной портал Вачского района")
+            span Новостной портал <br> Вачского района/
+        else
+          +e.A.logo(href="/index.html")
+            img(src="img/logo.svg" alt="Новостной портал Вачского района")
+            span Новостной портал <br> Вачского района/
         +e.controls
           +e.BUTTON.search
             +icon('search')(width="24", height="24")
