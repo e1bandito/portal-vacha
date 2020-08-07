@@ -5,15 +5,16 @@
 .district__inner {
   border-bottom: 1px solid #A0A0A0;
   padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.district__list {
-  @include lsr;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.district__col {
+  width: 50%;
 
   @include max($md) {
-    grid-template-columns: repeat(1, 100%);
+    width: 100%;
   }
 }
 
@@ -21,16 +22,7 @@
   font-size: 14px;
   color: #000000;
 
-  &:nth-child(3n - 1) {
-    grid-row: auto /span 2;
-
-    @include max(768) {
-      grid-row: auto / auto;
-      order: -1;
-    }
-
-    & .card__img {
-      padding-bottom: 48%;
-    }
+  & .card__img {
+    padding-bottom: 41%;
   }
 }

@@ -3,8 +3,15 @@
 +b.district
   .container
     +e.inner
-      +b.H2.title Район
-      +e.UL.list
+      +e.col
+        h2.title Район
         each item in districtData
-          +e.LI.item
+          +e.item
             +card(item.img, item.alt, item.title, item.text, item.path)
+      +e.col
+        +e.item
+          a.card(href="./news.html")
+            .card__img
+              img(src="img/news-image.jpg", alt="Описание картинки")
+            .card__title Lorem ipsum dolor sit amet
+            .card__text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac venenatis ligula. Integer sed feugiat erat, pharetra dapibus ligula. Integer ut enim hendrerit, lobortis elit id, aliquet tortor. Mauris eu enim metus. Vivamus efficitur vel urna vitae accumsan. Integer laoreet malesuada ipsum, at aliquet tellus porta et. Morbi at enim sed sem congue hendrerit. Pellentesque eu molestie felis. Donec sit amethendrerit sem. Quisque maximus ultricies lacus, non laoreet nisi volutpat in. Donec ut fringilla nulla, tristique ornare nunc. Duis a metus eu sapien vulputate porta.
