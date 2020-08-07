@@ -11,11 +11,9 @@
   @include lsr;
   display: grid;
   grid-template-columns: repeat(2, minmax(200px, 510px));
-  grid-gap: 50px;
 
   @include max($sm) {
     grid-template-columns: repeat(1, 100%);
-    grid-gap: 30px;
   }
 }
 

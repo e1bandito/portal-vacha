@@ -1,6 +1,17 @@
 .card {
   display: flex;
   flex-direction: column;
+  padding: 15px;
+  border: 1px solid transparent;
+
+  &:hover {
+    border-color: #CDCDCD;
+    border-radius: 5px;
+
+    & .card__title {
+      color: #3B69C2;
+    }
+  }
 }
 
 .card__img {

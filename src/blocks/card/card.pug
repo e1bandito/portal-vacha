@@ -1,10 +1,8 @@
 mixin card(img, alt, title, text, path)
-  +b.card
+  +b.A(href=path).card
     if img
       +e.img
         img(src="img/" + img, alt=alt)
     if title
       +e.H3.title= title
     +e.P.text= text
-    if path
-      +e.A(href=path).link Далее...
